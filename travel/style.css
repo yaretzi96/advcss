@@ -8,7 +8,9 @@
 #C9E440-yellowgreen
 #D4E966-yellowyellowgreen
 */
-
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 html{
   font-size: .625rem;
@@ -105,13 +107,6 @@ display: initial;
 
 }
 
-
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 .reco{
   background:#99D378;
