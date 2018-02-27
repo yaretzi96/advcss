@@ -15,9 +15,8 @@ html{
 }
 
 @media screen and (min-width: 701px) and (max-width: 1000px){
-    body:
-     rgb(153, 211, 120);
-  }
+    body{
+      background: rgb(153, 211, 120);
 }
 
  @media print {
