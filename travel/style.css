@@ -9,21 +9,28 @@
 #D4E966-yellowyellowgreen
 */
 
+
 html{
   font-size: .625rem;
 }
 
+@media screen and (min-width: 701px) and (max-width: 1000px){
+    body:
+     rgb(153, 211, 120);
+  }
+}
+
+ @media print {
+  body {
+    background: white;
+  }
+ }
+
 body{ 
   background:#60BA2C ;
   font-size: 2rem;
-}
-
-
-
-body{
   font-family: 'Libre Baskerville', serif;
 }
-
 
 
 
@@ -76,32 +83,35 @@ h1{
  }
  
 
-a{
+.flex-container {
   background-color:#38962A;
   color:rgb(243, 238, 232);
+  display:flex;
+  justify-content: space-around;
   padding:10px;
   margin: 10px;
-  display:inline-block;
   border-radius: 15px;
 }
-a:hover{
-  color:#C9E440;
+
+.flex-item {
+padding: 10px;
+width: 20%;
+color: #C9E440;
+display: initial;
 }
+.flex-item2{
+  display: initial;
+  color: black;
+  background: lightgreen;
+
+}
+
 
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-.box{
-  display: inline-block;
-  width: 50%;
-  height: 65%;
-  border-radius: 15px;
-  box-sizing: border-box;
-  display: block;
 }
 
 .reco{
@@ -139,7 +149,7 @@ footer p{
 }
 
 .fab{
-  display:inline-block;
+  display:flex;
   font-size: inherit;
   height: .5em;
   width: .5em;
