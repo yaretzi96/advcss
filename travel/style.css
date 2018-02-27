@@ -19,11 +19,11 @@ html{
       background: rgb(153, 211, 120);
 }
 
- @media print {
+ @media print
   body {
     background: white;
   }
- }
+   
 
 body{ 
   background:#60BA2C ;
