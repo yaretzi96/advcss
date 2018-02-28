@@ -15,7 +15,6 @@
 html{
   font-size: 10px;
 }
-   
 
 body{ 
   background:#60BA2C ;
@@ -140,6 +139,17 @@ footer p{
   overflow: visible;
   text-rendering: auto;
 }
+
+@media screen and (min-width: 701px) and (max-width: 1000px){
+    body{
+      background: rgb(153, 211, 120);
+}
+
+ @media print
+  body {
+    background: white;
+  }
+   
 
 
 
