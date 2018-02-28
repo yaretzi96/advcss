@@ -15,11 +15,7 @@
 html{
   font-size: 10px;
 }
-
-@media screen and (min-width: 701px) and (max-width: 1000px){
-    body {
-      background: rgb(153, 211, 120);
-}
+   
 
 body{ 
   background:#60BA2C ;
