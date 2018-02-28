@@ -140,7 +140,7 @@ footer p{
   text-rendering: auto;
 }
 
-@media screen and (min-width: 701px) and (max-width: 950px){
+@media screen and (min-width: 300px) and (max-width: 950px){
     body{
       background: rgb(153, 211, 120);
       font: #C9E440;
